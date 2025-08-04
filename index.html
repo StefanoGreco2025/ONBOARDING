@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processo di Onboarding per Aziende di Medie Dimensioni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="slide-nav">
+            <button class="nav-btn prev-btn" id="prevBtn">‹</button>
+            <div class="slide-indicators" id="slideIndicators"></div>
+            <button class="nav-btn next-btn" id="nextBtn">›</button>
+        </nav>
+
+        <!-- Slides Container -->
+        <div class="slides-container" id="slidesContainer">
+            
+            <!-- Slide 1: Title -->
+            <div class="slide active" data-slide="1">
+                <div class="slide-content title-slide">
+                    <h1>Processo di Onboarding</h1>
+                    <h2>per Aziende di Medie Dimensioni</h2>
+                    <p class="subtitle">Una guida completa per l'integrazione efficace dei nuovi dipendenti</p>
+                    <div class="company-info">
+                        <p>50-300 dipendenti | Approccio strutturato | Risultati misurabili</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Overview Timeline -->
+            <div class="slide" data-slide="2">
+                <div class="slide-content overview-slide">
+                    <h2>Panoramica del Processo</h2>
+                    <div class="timeline">
+                        <div class="timeline-item" data-phase="pre-boarding">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Pre-boarding</h3>
+                                <p>7-14 giorni prima</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-phase="primo-giorno">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Primo Giorno</h3>
+                                <p>Giorno 1</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-phase="prima-settimana">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Prima Settimana</h3>
+                                <p>Giorni 1-7</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-phase="primo-mese">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Primo Mese</h3>
+                                <p>Giorni 1-30</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-phase="piano-90-giorni">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Piano 30-60-90 Giorni</h3>
+                                <p>Giorni 1-90</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Pre-boarding -->
+            <div class="slide" data-slide="3">
+                <div class="slide-content phase-slide">
+                    <div class="phase-header">
+                        <div class="phase-icon">📋</div>
+                        <div class="phase-title">
+                            <h2>Pre-boarding</h2>
+                            <p class="phase-duration">7-14 giorni prima</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-details">
+                        <div class="detail-section">
+                            <h3>Obiettivi Principali</h3>
+                            <ul class="objectives-list">
+                                <li>Preparazione amministrativa completa</li>
+                                <li>Creazione aspettative positive</li>
+                                <li>Setup iniziale risorse e strumenti</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Attività Specifiche</h3>
+                            <ul class="activities-list">
+                                <li>Invio e completamento documentazione contrattuale</li>
+                                <li>Preparazione welcome kit personalizzato</li>
+                                <li>Assegnazione buddy/mentor dedicato</li>
+                                <li>Setup workstation e credenziali tecnologiche</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Deliverables</h3>
+                            <div class="deliverables">
+                                <span class="deliverable-tag">Contratti firmati</span>
+                                <span class="deliverable-tag">Welcome kit preparato</span>
+                                <span class="deliverable-tag">Buddy assegnato</span>
+                                <span class="deliverable-tag">Postazione pronta</span>
+                            </div>
+                        </div>
+
+                        <div class="responsibilities">
+                            <div class="resp-item">
+                                <strong>HR:</strong> Gestione documentazione e welcome kit
+                            </div>
+                            <div class="resp-item">
+                                <strong>IT:</strong> Setup tecnologico
+                            </div>
+                            <div class="resp-item">
+                                <strong>Manager:</strong> Identificazione buddy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Primo Giorno -->
+            <div class="slide" data-slide="4">
+                <div class="slide-content phase-slide">
+                    <div class="phase-header">
+                        <div class="phase-icon">🎯</div>
+                        <div class="phase-title">
+                            <h2>Primo Giorno</h2>
+                            <p class="phase-duration">Giorno 1</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-details">
+                        <div class="detail-section">
+                            <h3>Obiettivi Principali</h3>
+                            <ul class="objectives-list">
+                                <li>Accoglienza calorosa e professionale</li>
+                                <li>Orientamento iniziale in azienda</li>
+                                <li>Prima immersione nella cultura aziendale</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Attività Specifiche</h3>
+                            <ul class="activities-list">
+                                <li>Welcome meeting con HR e manager diretto</li>
+                                <li>Tour guidato delle strutture aziendali</li>
+                                <li>Presentazioni con team e colleghi chiave</li>
+                                <li>Sessione introduttiva su missione e valori</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Deliverables</h3>
+                            <div class="deliverables">
+                                <span class="deliverable-tag">Badge e materiali consegnati</span>
+                                <span class="deliverable-tag">Presentazioni completate</span>
+                                <span class="deliverable-tag">Tour completato</span>
+                                <span class="deliverable-tag">Primo briefing ricevuto</span>
+                            </div>
+                        </div>
+
+                        <div class="responsibilities">
+                            <div class="resp-item">
+                                <strong>HR:</strong> Coordinamento generale e welcome
+                            </div>
+                            <div class="resp-item">
+                                <strong>Manager:</strong> Briefing ruolo e aspettative
+                            </div>
+                            <div class="resp-item">
+                                <strong>Buddy:</strong> Accompagnamento e supporto
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Prima Settimana -->
+            <div class="slide" data-slide="5">
+                <div class="slide-content phase-slide">
+                    <div class="phase-header">
+                        <div class="phase-icon">📚</div>
+                        <div class="phase-title">
+                            <h2>Prima Settimana</h2>
+                            <p class="phase-duration">Giorni 1-7</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-details">
+                        <div class="detail-section">
+                            <h3>Obiettivi Principali</h3>
+                            <ul class="objectives-list">
+                                <li>Integrazione attiva nel team di lavoro</li>
+                                <li>Apprendimento competenze base del ruolo</li>
+                                <li>Familiarizzazione con processi aziendali</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Attività Specifiche</h3>
+                            <ul class="activities-list">
+                                <li>Training specifico per il ruolo assegnato</li>
+                                <li>Shadowing con colleghi esperti</li>
+                                <li>Check-in quotidiani con buddy/manager</li>
+                                <li>Primi progetti pilota a bassa complessità</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Deliverables</h3>
+                            <div class="deliverables">
+                                <span class="deliverable-tag">Training base completato</span>
+                                <span class="deliverable-tag">Prime attività assegnate</span>
+                                <span class="deliverable-tag">Feedback iniziale raccolto</span>
+                                <span class="deliverable-tag">Relazioni team avviate</span>
+                            </div>
+                        </div>
+
+                        <div class="responsibilities">
+                            <div class="resp-item">
+                                <strong>Manager:</strong> Supervisione training e progetti
+                            </div>
+                            <div class="resp-item">
+                                <strong>Buddy:</strong> Supporto quotidiano e guida
+                            </div>
+                            <div class="resp-item">
+                                <strong>Team:</strong> Accoglienza e collaborazione
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Primo Mese -->
+            <div class="slide" data-slide="6">
+                <div class="slide-content phase-slide">
+                    <div class="phase-header">
+                        <div class="phase-icon">🚀</div>
+                        <div class="phase-title">
+                            <h2>Primo Mese</h2>
+                            <p class="phase-duration">Giorni 1-30</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-details">
+                        <div class="detail-section">
+                            <h3>Obiettivi Principali</h3>
+                            <ul class="objectives-list">
+                                <li>Padronanza delle competenze fondamentali</li>
+                                <li>Contributo attivo agli obiettivi del team</li>
+                                <li>Piena integrazione nella cultura aziendale</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Attività Specifiche</h3>
+                            <ul class="activities-list">
+                                <li>Formazione approfondita su sistemi e processi</li>
+                                <li>Assegnazione responsabilità specifiche crescenti</li>
+                                <li>Meeting regolari di feedback e goal setting</li>
+                                <li>Partecipazione attiva a progetti team</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Deliverables</h3>
+                            <div class="deliverables">
+                                <span class="deliverable-tag">Competenze core acquisite</span>
+                                <span class="deliverable-tag">Prime milestone raggiunte</span>
+                                <span class="deliverable-tag">Feedback 30 giorni completato</span>
+                                <span class="deliverable-tag">Obiettivi definiti</span>
+                            </div>
+                        </div>
+
+                        <div class="responsibilities">
+                            <div class="resp-item">
+                                <strong>Manager:</strong> Valutazione performance e feedback
+                            </div>
+                            <div class="resp-item">
+                                <strong>HR:</strong> Monitoraggio processo e survey
+                            </div>
+                            <div class="resp-item">
+                                <strong>Nuovo assunto:</strong> Proattività e apprendimento
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Piano 30-60-90 Giorni -->
+            <div class="slide" data-slide="7">
+                <div class="slide-content phase-slide">
+                    <div class="phase-header">
+                        <div class="phase-icon">📈</div>
+                        <div class="phase-title">
+                            <h2>Piano 30-60-90 Giorni</h2>
+                            <p class="phase-duration">Giorni 1-90</p>
+                        </div>
+                    </div>
+                    
+                    <div class="phase-details">
+                        <div class="detail-section">
+                            <h3>Obiettivi Principali</h3>
+                            <ul class="objectives-list">
+                                <li>Raggiungimento autonomia operativa completa</li>
+                                <li>Performance allineate agli standard aziendali</li>
+                                <li>Pianificazione sviluppo professionale futuro</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Attività Specifiche</h3>
+                            <ul class="activities-list">
+                                <li>Valutazioni strutturate a 30-60-90 giorni</li>
+                                <li>Definizione piani di sviluppo personalizzati</li>
+                                <li>Assunzione responsabilità a pieno regime</li>
+                                <li>Assessment finale e feedback completo</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Deliverables</h3>
+                            <div class="deliverables">
+                                <span class="deliverable-tag">Performance review completate</span>
+                                <span class="deliverable-tag">Piano sviluppo definito</span>
+                                <span class="deliverable-tag">Autonomia operativa raggiunta</span>
+                                <span class="deliverable-tag">Onboarding concluso con successo</span>
+                            </div>
+                        </div>
+
+                        <div class="responsibilities">
+                            <div class="resp-item">
+                                <strong>Manager:</strong> Valutazioni e piani sviluppo
+                            </div>
+                            <div class="resp-item">
+                                <strong>HR:</strong> Assessment finale e documentazione
+                            </div>
+                            <div class="resp-item">
+                                <strong>Nuovo assunto:</strong> Raggiungimento obiettivi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Strumenti di Monitoraggio -->
+            <div class="slide" data-slide="8">
+                <div class="slide-content tools-slide">
+                    <h2>Strumenti di Monitoraggio</h2>
+                    <div class="tools-grid">
+                        <div class="tool-card">
+                            <div class="tool-icon">✅</div>
+                            <h3>Checklist Digitale</h3>
+                            <p>Tracciamento completamento attività</p>
+                            <span class="frequency">Giornaliera</span>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon">📊</div>
+                            <h3>Dashboard KPI</h3>
+                            <p>Monitoraggio tempo e produttività</p>
+                            <span class="frequency">Settimanale/Mensile</span>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon">💬</div>
+                            <h3>Survey di Feedback</h3>
+                            <p>Raccolta feedback continuo</p>
+                            <span class="frequency">7-30-60-90 giorni</span>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-icon">🎯</div>
+                            <h3>Check-in Programmati</h3>
+                            <p>Valutazione periodica avanzamento</p>
+                            <span class="frequency">Settimanale primi 2 mesi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Benefici e ROI -->
+            <div class="slide" data-slide="9">
+                <div class="slide-content roi-slide">
+                    <h2>Benefici e ROI</h2>
+                    <div class="roi-grid">
+                        <div class="roi-card">
+                            <div class="roi-metric">
+                                <span class="roi-value">+82%</span>
+                                <span class="roi-label">Retention Rate</span>
+                            </div>
+                            <p>Aumento della ritenzione dei dipendenti</p>
+                        </div>
+                        <div class="roi-card">
+                            <div class="roi-metric">
+                                <span class="roi-value">+70%</span>
+                                <span class="roi-label">Produttività</span>
+                            </div>
+                            <p>Incremento produttività primi mesi</p>
+                        </div>
+                        <div class="roi-card">
+                            <div class="roi-metric">
+                                <span class="roi-value">-40%</span>
+                                <span class="roi-label">Time to Productivity</span>
+                            </div>
+                            <p>Riduzione tempo per raggiungere performance standard</p>
+                        </div>
+                        <div class="roi-card">
+                            <div class="roi-metric">
+                                <span class="roi-value">-35%</span>
+                                <span class="roi-label">Costi Recruitment</span>
+                            </div>
+                            <p>Diminuzione costi per sostituzione dipendenti</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: Conclusioni -->
+            <div class="slide" data-slide="10">
+                <div class="slide-content conclusion-slide">
+                    <h2>Conclusioni</h2>
+                    <div class="conclusion-content">
+                        <div class="key-points">
+                            <h3>Punti Chiave del Processo</h3>
+                            <ul>
+                                <li><strong>Strutturato e Scalabile:</strong> Adatto per aziende in crescita da 50 a 300 dipendenti</li>
+                                <li><strong>Misurabile:</strong> KPI chiari e strumenti di monitoraggio integrati</li>
+                                <li><strong>Personalizzabile:</strong> Flessibile per diversi ruoli e dipartimenti</li>
+                                <li><strong>ROI Comprovato:</strong> Risultati tangibili in termini di retention e produttività</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="next-steps">
+                            <h3>Prossimi Passi</h3>
+                            <div class="steps-grid">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <p>Assessment situazione attuale</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <p>Customizzazione del processo</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <p>Training team HR e manager</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">4</span>
+                                    <p>Implementazione pilota</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
